@@ -1,0 +1,134 @@
+body {
+    height: 100vh;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sideImage {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.tabDiv {
+    margin: 26px 26px;
+    padding: 45px;
+}
+
+.nav {
+    justify-content: center;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #333;
+    background-color: transparent;
+}
+
+.nav-item .nav-link {
+    color: #d0cfcf;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover {
+    color: #333;
+    background-color: transparent;
+}
+
+.cityDiv {
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.quesDiv {
+    display: grid;
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.quesDiv p {
+    font-size: 27px;
+    text-align: center;
+}
+
+.form-control.city {
+    padding: 33px 18px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ced4da;
+    background-color: #fafafa;
+    font-size: 23px;
+}
+.icon{
+    font-size: 28px;
+}
+.btn.yes2, .btn.yes3, .btn.yes4, .btn.no2, .btn.no3, .btn.no4 {
+    padding: 2rem;
+    background-color: #dddddd;
+}
+
+::placeholder {
+    color: #ced4da;
+    font-size: 27px;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #ced4da;
+    font-size: 27px;
+}
+
+::-ms-input-placeholder {
+    color: #ced4da;
+    font-size: 27px;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+    .tabDiv {
+        margin: 26px 26px;
+        padding: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
